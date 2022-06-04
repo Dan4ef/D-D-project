@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script defer src="magicks.json"></script>
+    <script defer src="search.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="flex-wrapper-two">
+            <div class="moon-button">
+                <img alt="" class="moon-icon" src="https://static.overlay-tech.com/assets/c56382a0-790f-406d-8087-ec686dc1327f.png" />
+            </div>
+        </div>
+        <div class="flex-wrapper-three">
+            <p class="poshuk-zaklinan">Пошук заклинань</p>
+            <div class="search-line">
+                <img alt="" class="search-icon" src="https://static.overlay-tech.com/assets/f7adf8e8-b948-4e9b-a3c8-13a802cc82dd.png" />
+                <input class="flex-wrapper-one" id="searchbar" onkeyup="search()" type="text" name="search">
+            </div>
+
+            <div class="flex-wrapper-four">
+                <dl id="list-holder">
+                    <!-- Ось сюди вставляються елементи списку
+                    скрипт підв'язаний до list-holder 
+                    а так це може бути будь який формат для списку-->
+
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
